@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MAUIApp5.Foods.LasagnaPage"
+             Title="Lasagna"
+             BackgroundColor="#F8C4B4">
+    <VerticalStackLayout
+        Padding="40">
+        <Label 
+            Text="This is my favorite pasta"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center"
+            FontSize="Large"
+            FontAttributes="Italic"/>
+        <Image
+            Source="lasagna.jpg"
+            WidthRequest="550"
+            HeightRequest="550"
+            Margin="50"/>
+    </VerticalStackLayout>
+</ContentPage>
